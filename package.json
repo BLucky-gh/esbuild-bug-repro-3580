@@ -1,0 +1,21 @@
+{
+  "name": "esbuild-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "ts-node --esm ./main.ts",
+    "build": "node ./build.js"
+  },
+  "devDependencies": {
+    "@types/node": "18.19.3",
+    "esbuild": "0.18.13",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@bogeychan/elysia-logger": "0.0.14",
+    "@bogeychan/elysia-polyfills": "0.6.1",
+    "@sinclair/typebox": "^0.32.5",
+    "elysia": "^0.8.0"
+  }
+}
